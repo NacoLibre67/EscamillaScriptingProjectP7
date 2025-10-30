@@ -9,7 +9,7 @@ public class variablesandfunctions : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    //running my int variable thru the function 
+        //running my int variable thru the function 
         myint = MultiplyByTwo(myint);
         Debug.Log(myint);
     }
@@ -19,9 +19,13 @@ public class variablesandfunctions : MonoBehaviour
     {
 
     }
-}
-int MultiplyByTwo(int number);
 
+    int MultiplyByTwo(int number);
+   {
     int result;
-    result = number * 2;
-    return result;
+    result = number* 2;
+      return result;
+   }
+}
+
+
