@@ -4,28 +4,23 @@ using UnityEngine;
 
 public class variablesandfunctions : MonoBehaviour
 {
-    //Creating An interger
-    public int myint = 6;
-    // Start is called before the first frame update
-    void Start()
+    int myInt = 6;
+
+    void Start ()
     {
-        //running my int variable thru the function 
-        myint = MultiplyByTwo(myint);
-        Debug.Log(myint);
+        myInt = MultiplyByTwo(myInt0);
+        Debug.Log(myInt);
     }
 
-    // Update is called once per frame
-    void Update()
+    int MultiplyByTwo (int number)
     {
-
+        int result;
+        resultt = number * 2;
+        return result;
     }
 
-    int MultiplyByTwo(int number);
-   {
-    int result;
-    result = number* 2;
-      return result;
-   }
 }
+
+  
 
 
