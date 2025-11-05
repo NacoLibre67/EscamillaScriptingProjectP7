@@ -8,14 +8,14 @@ public class variablesandfunctions : MonoBehaviour
 
     void Start ()
     {
-        myInt = MultiplyByTwo(myInt0);
+        myInt = MultiplyByTwo(myInt = 0);
         Debug.Log(myInt);
     }
 
     int MultiplyByTwo (int number)
     {
         int result;
-        resultt = number * 2;
+        result = number * 2;
         return result;
     }
 

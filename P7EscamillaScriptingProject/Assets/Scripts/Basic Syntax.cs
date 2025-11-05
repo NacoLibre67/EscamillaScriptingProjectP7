@@ -16,7 +16,7 @@ public class BasicSyntax : MonoBehaviour
     {
         if (transform.position.y < 5f)
         {
-             Debug.Log("I'm about to hit the ground")
+            Debug.Log("I'm about to hit the ground");
         }
     }
 }
