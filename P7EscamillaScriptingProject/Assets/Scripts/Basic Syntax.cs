@@ -14,7 +14,7 @@ public class BasicSyntax : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < 5f)
+        if (transform.position.y <= 5f)
         {
             Debug.Log("I'm about to hit the ground");
         }
