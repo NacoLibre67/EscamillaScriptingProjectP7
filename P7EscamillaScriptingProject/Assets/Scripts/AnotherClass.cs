@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class AnotherClass : MonoBehaviour
 {
-    public int apples;
+    public int apples = 5;
     public int bananas;
 
     private int stapler;
